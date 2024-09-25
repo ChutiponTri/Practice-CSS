@@ -1,0 +1,43 @@
+#box1{
+    width: 250px;
+    height: 250px;
+    font-size: 225px;
+    background: cyan;
+    text-align: center;
+    /*
+    animation: slide;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    */
+    
+}
+#box1:hover{
+    animation: 5s linear 0s infinite running color_change;
+}
+#box1:active{
+    animation: 5s linear 0s infinite running rotate;
+}
+@keyframes slide{
+    from{margin-left: 100%;}
+    to{margin-left: 0%;}
+}
+@keyframes rotate{
+    100%{transform: rotateX(360deg);}
+}
+@keyframes opacity{
+    50%{opacity: 0};
+}
+@keyframes scale{
+    50%{transform: scale(0.5, 0.5);}
+}
+@keyframes color_change{
+    0%{background-color: aqua;}
+    20%{background-color: blueviolet;}
+    40%{background-color: red;}
+    60%{background-color: aquamarine;}
+    80%{background-color: aliceblue;}
+    100%{background-color: blanchedalmond}
+}

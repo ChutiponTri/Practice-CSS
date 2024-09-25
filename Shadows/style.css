@@ -1,0 +1,7 @@
+h1{
+    text-shadow: 5px 5px 5px green, 5px -5px 5px red;            /* x-pos, y-pos blur*/
+    
+}
+h1:hover{
+    box-shadow: 5px 5px 5px black;
+}

@@ -1,0 +1,16 @@
+body{
+    background-color: aliceblue;
+}
+h1{
+    background-color: antiquewhite;
+    font-family: "press Start 2P", "consolas";
+}
+p{
+    background-color: aqua;
+    color: red;
+    font-family: "consolas",sans-serif;        /* If one not supported, use another */
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: black dotted underline;
+    font-size: 18px;
+}

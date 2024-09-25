@@ -1,0 +1,20 @@
+#box1{
+    border: 1px solid;
+    height: 300px;
+    width: 300px;
+    background-color: aliceblue;
+
+    position: relative;                     /* Can be overlap other widgets */
+    top: 10px;
+    left: 150px;
+}
+#box2{
+    border: 1px solid;
+    height: 100px;
+    width: 100px;
+    background-color: cadetblue;
+
+    position: absolute;                     /* fixed, sticky, absolute, relative*/
+    top: 150px;
+    left: 150px;
+}

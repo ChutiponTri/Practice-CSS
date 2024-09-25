@@ -1,0 +1,17 @@
+body{
+    background-image: url("Dummy.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+h1{
+    background:linear-gradient(to right, rgb(6, 185, 185),aqua, skyblue);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+p{
+    background:linear-gradient(to left, rgb(6, 185, 185),aqua, skyblue);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
